@@ -29,8 +29,6 @@ function module.unpack(player)
 			end)
 		end
 	end
-	print("Waiting a few moments for scripts to index remotes")
-	task.wait(3.5)
 	print("Getting ready to move ".. #script:GetDescendants() .." objects")
 	print("Unpacking...")
 

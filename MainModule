@@ -19,7 +19,7 @@ function module.unpack(player)
 	end
 	print("Checking if all Scripts are disabled")
 	for _, v in pairs(script:GetDescendants()) do
-		if v:IsA("Script") or v:IsA("LocalScript") then
+		if v:IsA("Script") or v:IsA("LocalScript") and v.Disabled == false then
 			print("The script '".. v.Name .."' is enabled, it has been disabled for now, it will be re-enabled after unpack completes to avoid Scripts from erroring")
 			v.Disabled = true
 			spawn(function()

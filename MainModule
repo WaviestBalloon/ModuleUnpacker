@@ -58,7 +58,7 @@ function module.unpack(player)
 	end
 
 	unpackcompleted = true
-	print("Finished! Thank you for using my unpacker, source code to be released at a later date\nGitHub: https://github.com/WaviestBalloon/ModuleUnpacker")
+	print("Finished! Thank you for using my unpacker\nGitHub: https://github.com/WaviestBalloon/ModuleUnpacker")
 end
 
 return module

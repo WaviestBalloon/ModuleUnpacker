@@ -7,7 +7,7 @@ local warn = function(_) warn("[Waviest's Module Unpacker] ".. tostring(_)) end
 local module = {}
 
 function module.unpack(player)
-	print("Starting UnpackRuntim (Version 2)")
+	print("Starting (Version 2)")
 	local unpackcompleted = false
 	print("Vaildating player")
 	if player == nil or player == "" then

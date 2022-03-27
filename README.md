@@ -6,7 +6,7 @@ Instead of painfully adding multiple lines of code to clone and move everything 
 
 # Small documentation/notes
 
-- Creating a folder called "`PlayerTool`", it will automatically drop the tool in there into the user you specify upon unpacking
+- Creating a folder called "`PlayerTool`", it will automatically drop any tools in there into the user you specify upon unpacking
 - To unpack, use this command as a base, `require(<id: int>).unpack("<your username: str>")`
 
 If you use this module in anyway, **please follow the CC license as provided**, to credit me if you use it and if you modify to be better, feel free to create a PR to make the module better for everyone

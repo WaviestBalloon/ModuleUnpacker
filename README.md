@@ -9,6 +9,4 @@ Instead of painfully adding multiple lines of code to clone and move everything 
 - Creating a folder called "`PlayerTool`", it will automatically drop any tools in there into the user you specify upon unpacking
 - To unpack, use this command as a base, `require(<id: int>).unpack("<your username: str>")`
 
-If you use this module in anyway, **please follow the CC license as provided**, to credit me if you use it and if you modify to be better, feel free to create a PR to make the module better for everyone
-
- Waviest's Unpacker © 2022 by WaviestBalloon is licensed under CC BY-SA 4.0 
+Credit me if you use it and if you modify to be better, feel free to create a PR to make the module better for everyone

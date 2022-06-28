@@ -1,8 +1,8 @@
 -- Waviest's Unpacker © 2022 by WaviestBalloon is licensed under CC BY-SA 4.0
 
-local print = function(_) print("[Waviest's Module Unpacker] ".. tostring(_)) end
-local error = function(_, level) if level == nil then level = 0 end error("[Waviest's Module Unpacker] ".. tostring(_), level) end
-local warn = function(_) warn("[Waviest's Module Unpacker] ".. tostring(_)) end
+local print = function(_) print("[Module Unpacker] ".. tostring(_)) end
+local error = function(_, level) if level == nil then level = 0 end error("[Unpacker] ".. tostring(_), level) end
+local warn = function(_) warn("[Module Unpacker] ".. tostring(_)) end
 
 local module = {}
 
